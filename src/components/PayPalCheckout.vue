@@ -84,7 +84,7 @@ export default {
       onCancel: vue.onCancel,
     }, assignTo(vue, propTypes.BUTTON));
 
-    paypal.Button.render(button, vue.$el);
+    paypal.Buttons.render(button, vue.$el);
   },
 };
 </script>
