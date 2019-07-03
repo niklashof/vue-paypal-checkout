@@ -74,9 +74,6 @@ export default {
       // See https://developer.paypal.com/docs/api/payments/#payment_create for the expected json parameters
       payment: vue.payment,
 
-      // Display a "Pay Now" button rather than a "Continue" button
-      commit: vue.commit,
-
       // Pass a function to be called when the customer completes the payment
       onAuthorize: vue.onAuthorize,
 
