@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import paypal from 'paypal-checkout';
+import paypal from '@paypal/sdk-client';
 import defaultProps from '../util/defaultProps';
 import additionalProps from '../util/additionalProps';
 import { propTypes, assignToPropertyObject } from '../util/paypalProp';
